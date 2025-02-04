@@ -1,0 +1,56 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Cards (Books) */
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+}
+
+/* Forms */
+.form-control {
+    border-radius: 5px;
+}
+
+/* Cart Table */
+.table {
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Success and error messages */
+.alert {
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}

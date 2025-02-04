@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Main container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Cards */
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+}
+
+/* Table */
+.table {
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Alerts */
+.alert {
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
